@@ -1,0 +1,132 @@
+/*.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 20px;
+  background-color: #000;
+  color: #ff0;
+  overflow: hidden;
+  margin: 5px;
+  width: auto;
+  box-shadow: yellowgreen 0 0 10px 1px;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  width: 100%;
+}
+
+.contact input,
+.contact textarea {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #333;
+  background-color: #111;
+  color: #ff0;
+}
+
+.contact button {
+  background-color: #ff0;
+  color: #000;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.contact button:hover {
+  background-color: #cc0;
+} */
+
+
+/* another styles conect to the other page muted */
+
+.contact-section {
+  padding: 50px 20px;
+  text-align: center;
+  appearance: none;
+  border: none;
+  font-size: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 5px;
+  outline: none;
+  cursor: pointer;
+  font-family: Arial, sans-serif;
+  text-decoration: none;
+}
+
+.contact-section h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #fff
+}
+
+
+
+
+.contact-section form {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  box-shadow: yellowgreen 0 0 10px 1px;
+}
+
+
+.contact-section input,
+.contact-section textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+background-color: yellow;
+  color: #000;
+  border-radius: 0px;
+  width: 100%;
+  max-width: 550px;
+  font-size: 16px;
+  
+
+  font-family: Arial, sans-serif;
+
+}
+
+
+.contact-section button {
+  background-color: #ff0;
+  color: #000;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 0 auto;
+  outline: none;
+  font-family: Arial, sans-serif;
+  text-decoration: none;
+  text-align: center;
+}
+
+
+.contact-section button:hover {
+  background-color: rgb(129, 129, 120);
+
+}
+
+
+
+
+
+@media screen and (max-width: 600px) {
+  .contact-section {
+    padding: 20px;
+  }
+}

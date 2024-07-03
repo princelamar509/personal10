@@ -1,0 +1,92 @@
+/* General Styles for Experience Section */
+.experience-section {
+    padding: 40px 20px;
+    color: #fff;
+    overflow: hidden;
+    margin: 5px;
+    width: auto;
+  flex-wrap: wrap;
+    margin: 0 auto;
+    text-align: center;
+   box-shadow: 0 0 14px rgba(250, 248, 248, 0.2);
+  }
+  
+  .experience-section h2 {
+    font-size: 2.0em;
+    margin-bottom: 20px;
+    color: #fff; 
+  }
+  
+  /* Timeline Styles */
+  .timeline-container {
+    position: relative;
+    margin-top: 40px;
+  }
+  
+  .timeline {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .timeline-track {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 4px;
+   
+  }
+  
+  .timeline-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 40px;
+    flex-wrap: wrap;
+  }
+  
+  .timeline-item {
+    position: relative;
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+  
+  }
+  
+  .timeline-date {
+    font-size: 0.9em;
+    color: yellow;
+    margin-bottom: 10px;
+  }
+  
+  .timeline-content {
+    background: #000;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px 15px;
+    position: relative;
+    z-index: 1;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .timeline-content h3 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+    color: yellow;
+  }
+  
+  .timeline-content p {
+    margin: 0;
+    color: yellow;
+  }
+  
+  
+  
+  .timeline-item:hover .timeline-content {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(237, 229, 14, 0.1);
+  }

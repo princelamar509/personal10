@@ -1,0 +1,118 @@
+.hero {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  color: #ff0;
+  text-align: center;
+  padding: 20px; 
+  font-size: 2em;;
+  font-family: sans-serif;
+  font-weight: 800;
+
+}
+
+.background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.hero-content {
+  z-index: 1;
+  max-width: 600px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  animation: mymove 1s ease-in-out infinite;
+  animation-delay: 1s;
+  animation-duration: 3s;
+  animation-name: unset;
+  animation-play-state: running, running, running;
+  animation-timing-function: ease-in-out, ease-in-out, ease-in-out;
+  animation-direction: normal, normal, normal;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-name: mymove;
+  animation-play-state: running;
+  animation-timing-function: linear;
+  animation-direction: normal;
+color:#fff;
+}
+
+@keyframes mymove  {
+  0% {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  50% {
+    font-size: 48px;
+    margin-bottom: 40px;
+  }
+  100% {
+    font-size: 48px;
+    margin-bottom: 40px;
+
+  }
+
+}
+
+
+.hero h1:hover {
+  
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+} 
+
+
+.hero p {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+.social-icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+
+}
+.social-icons a {
+  color: #ff0;
+  text-decoration: none;
+  font-size: 24px;
+} 
+.social-icons a:hover {
+  color: white;
+}
+
+
+
+
+
+.hero-button:hover {
+  background-color: #cc0;
+}
+
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 32px;
+  }
+
+  .hero p {
+    font-size: 18px;
+  }
+
+  .hero-button {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+}
