@@ -16,7 +16,7 @@ function Hero() {
       <div className="hero-content">
         <p>Hello I'm Madeus Rene</p>
         <h1>Front End Developer</h1>
-        <p>im a pasionate front end developer with a strong foundation in HTML, CSS, and JavaScript.</p>
+        <p>I'm a pasionate front end developer with a strong foundation in HTML, CSS, and JavaScript.</p>
         <div className="social-icons">
           <a href="https://github.com/princelamar509" target="_blank" rel="noopener noreferrer">
             <FaGithub size={30} />

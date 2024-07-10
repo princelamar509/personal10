@@ -90,3 +90,20 @@
     transform: translateY(-10px);
     box-shadow: 0 10px 20px rgba(237, 229, 14, 0.1);
   }
+
+  @media screen and (max-width: 768px) {
+    .timeline-section {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .timeline-item {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+
+    .timeline-date {
+      font-size: 1.2em;
+    }
+    
+  }

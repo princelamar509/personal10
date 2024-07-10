@@ -188,4 +188,12 @@ color:#ff0;
     margin: 5px 0;
     width: 100%;
   }
+
+  .project-card p {
+    font-size: 0.9em;
+  }
+
+  .project-link {
+    font-size: 0.9em;
+  }
 }

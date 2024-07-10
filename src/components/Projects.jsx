@@ -42,28 +42,28 @@ import './Projects.css';
 const Projects = () => {
   const allProjects = [
     {
-      title: 'Project One',
-      description: 'This is a description for project one. It showcases my skills in React and CSS.',
-      link: 'https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/learn-basic-string-and-array-methods-by-building-a-music-player/step-99',
+      title: 'Money Transfer',
+      description: 'This is a Money Transfer Project. It showcases my skills in React.',
+      link: 'https://princelamar509.github.io/MoneyTransfer1/',
       category: 'React'
     },
     {
-      title: 'Project Two',
-      description: 'This is a description for project two. It focuses on front-end development using JavaScript and HTML.',
-      link: 'https://github.com/yourusername/project-two',
+      title: 'Template',
+      description: 'This  is a template for a startup or any other business. It focuses on front-end development using JavaScript and HTML.',
+      link: 'https://princelamar509.github.io/Start-up1/',
+      category: 'HTML/CSS'
+    },
+    {
+      title: 'Online Shopping',
+      description: 'This is a online shopping project. It showcases my skills in React and also how to use API.',
+      link: 'https://princelamar509.github.io/shopping1/',
+      category: 'React'
+    },
+    {
+      title: 'Music Player',
+      description: 'This is a music player project. It showcases my skills in JavaScript.',
+      link: 'https://princelamar509.github.io/music-player/',
       category: 'JavaScript'
-    },
-    {
-      title: 'Project Three',
-      description: 'This is a description for project three. It showcases my skills in Angular and TypeScript.',
-      link: 'https://github.com/yourusername/project-three',
-      category: 'Angular'
-    },
-    {
-      title: 'Project Four',
-      description: 'This is a description for project three. It showcases my skills in Angular and TypeScript.',
-      link: 'https://github.com/yourusername/project-three',
-      category: 'Angular'
     },
     // Add more projects as needed
   ];
@@ -74,7 +74,7 @@ const Projects = () => {
     ? allProjects
     : allProjects.filter(project => project.category === selectedCategory);
 
-  const categories = ['All', 'React', 'JavaScript', 'Angular'];
+  const categories = ['All', 'React', 'JavaScript', 'HTML/CSS'];
 
   return (
     <section id="projects" className="projects-section">

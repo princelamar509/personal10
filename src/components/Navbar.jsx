@@ -20,7 +20,7 @@ function Navbar() {
         <li><a href="#skills">Skills</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
-        <button className="cv-button" onClick={() => window.open('https://your-cv-url.com', '_blank')}>Download My CV</button>
+        <button className="cv-button" onClick={() => window.open('https://www.freecodecamp.org/fcc26a7b363-6241-4a85-8fe6-5441e553b973', '_blank')}>Download My CV</button>
       </div>
       <div className="hamburger" onClick={toggleMenu}>
         <div className="line"></div>
